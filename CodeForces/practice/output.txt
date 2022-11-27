@@ -1,0 +1,14 @@
+dict_values([2, 1, 1, 1]) dict_values([2, 2, 1])
+NO
+dict_values([1]) dict_values([1])
+YES
+dict_values([1, 1]) dict_values([1, 1])
+YES
+dict_values([2, 2]) dict_values([3, 1])
+NO
+dict_values([2, 2, 1]) dict_values([5])
+NO
+dict_values([1, 1, 1, 1, 1, 1]) dict_values([1, 2, 1, 1, 1])
+NO
+dict_values([3, 2, 1, 1]) dict_values([3, 4])
+NO
